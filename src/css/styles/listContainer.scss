@@ -1,0 +1,38 @@
+.fav_list {
+    list-style: none;
+    padding: 0;
+    flex: 1;
+    margin: 0;
+};
+
+
+.fav_item {
+    border: 1px solid $border;
+    width: 170px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .fav_btn {
+        background-color: inherit;
+        width: 100%;
+        height: 100%;
+        border: none;
+        color: inherit;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        span {
+            text-align: center;
+        }
+    }
+    &:hover {
+        background-color: darken($color: $btn-hover-bg, $amount: 5%);
+        color:$btn-hover-color;
+    }
+    p{
+        margin:0;
+    }
+}

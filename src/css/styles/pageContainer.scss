@@ -1,0 +1,26 @@
+.page_container {
+    padding: 15px;
+    display: flex;
+    img {
+        max-width: 250px;
+        height: auto;
+    }
+
+    .page_text {
+        padding: 10px;
+    };
+
+    .page_title {
+        font-size: 20px;
+    }
+
+    .page_btn {
+        color: $anchor;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .details-anchors {
+        text-align: right;
+    }
+}

@@ -1,0 +1,19 @@
+@import './styles/base';
+@import './styles/mainContainer';
+@import './styles/navContainer';
+@import './styles/actionContainer';
+@import './styles/listContainer';
+@import './styles/resultContainer';
+@import './styles/pageContainer.scss';
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(189, 187, 187);
+    margin: 0;
+    font-size: 15px;
+    color: black;
+    h1 {
+        color: black;
+    }
+}

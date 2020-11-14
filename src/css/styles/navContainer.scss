@@ -1,0 +1,38 @@
+.nav-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 4px 0 $border;
+    padding: 10px;
+
+    .logo_container {
+        position: absolute;
+        left: 15px;
+
+        h1 {
+            margin: 0;
+        }
+    };
+
+    .search_container {
+        display: flex;
+        justify-content: center;
+        border: 1px solid $border;
+    };
+
+    .search_input {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 1em;
+        position: relative;
+        border: none;
+        &:focus {
+            outline: none;
+        }
+    }
+
+    button {
+        border: none !important;
+    }
+}
